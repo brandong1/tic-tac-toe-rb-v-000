@@ -60,7 +60,7 @@
       end
   end
   
-  def move(board, index, 0)
+  def move(board, index)
     board[index] = player # Updates the board array index location with player, or in this case, the default value "X"
   end
   
