@@ -1,5 +1,5 @@
 
-  puts "Welcome to Tic Tac Toe!"
+  puts 'Welcome to Tic Tac Toe!'
   board = [" "," "," "," "," "," "," "," "," "]
   
   WIN_COMBINATIONS = [
