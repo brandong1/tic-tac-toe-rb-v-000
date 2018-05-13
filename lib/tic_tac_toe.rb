@@ -143,4 +143,10 @@
   
   def play(board)
     turn(board)
+    while won?(board) == false
+        over?(board)
+        full?(board)
+        draw?(board)
+      end 
+  
   end 
